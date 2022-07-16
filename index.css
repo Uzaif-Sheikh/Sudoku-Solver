@@ -16,14 +16,15 @@ p{
 h1{
     position: relative;
     left: -109px;
+    z-index: 10;
+    color: white;
 }
 
 body {
-    background-image: url("https://pbs.twimg.com/media/EhjfWgUXgAE8pHz.jpg:large");
     margin:0;
     padding:0;
     overflow: hidden;
-    
+    z-index: 10;
 }
 
 .print{
@@ -141,4 +142,9 @@ table input{
     padding-left: 36px;
     border-radius: 20px;
     box-shadow: 0px;
+}
+
+.container {
+    z-index: 1;
+    position: relative;
 }
